@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "compile": "babel src --out-dir dist --plugins=@babel/plugin-transform-react-jsx"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.15",
+    "@babel/plugin-transform-react-jsx": "^7.22.15",
+    "@babel/preset-react": "^7.22.15",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
